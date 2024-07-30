@@ -18,11 +18,10 @@ public class EnemyAttack : MonoBehaviour
         _gameObject = GameObject.Find("Character");
         _dragAndShoot = _gameObject.GetComponent<DragAndShoot>();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
-        if (_fieldofView.canSeePlayer && _dragAndShoot)
+        if (_fieldofView.canSeePlayer && _dragAndShoot.isGrounded)
         {
             
             ShootAtPlayer();

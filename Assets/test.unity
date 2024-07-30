@@ -404,9 +404,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 285623dc2b34d8049808ceea25a779fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfRays: 4
-  line: {fileID: 451987895}
-  dragLine: {fileID: 268456797}
 --- !u!120 &268456797
 LineRenderer:
   serializedVersion: 2
@@ -1628,7 +1625,7 @@ MonoBehaviour:
   maxPower: {x: 8, y: 8}
   spritePrefab: {fileID: 4698887004664293191, guid: 6a96e486f0fad0044a7e58f21d8089ac,
     type: 3}
-  instanstiatedSprite: {fileID: 0}
+  instantiatedSprite: {fileID: 0}
   steps: 35
   isGrounded: 0
 --- !u!120 &741349796
@@ -3312,13 +3309,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977538345}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0.06, y: 2.5800002, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 720560750}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1993941595
 GameObject:
   m_ObjectHideFlags: 3
