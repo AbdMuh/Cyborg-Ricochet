@@ -91,7 +91,7 @@ public class Trajectory : MonoBehaviour
                 temp[tempindex++] = trajectory[i];
             }
         }
-
+        
         _lr.positionCount = length;
         _lr.SetPositions(temp);
     }

@@ -10,6 +10,7 @@ public class EnemyAttack : MonoBehaviour
     private FieldofView _fieldofView;
     private DragAndShoot _dragAndShoot;
     private GameObject _gameObject;
+    private Animator _animator;
     
     void Start()
     {
@@ -17,19 +18,21 @@ public class EnemyAttack : MonoBehaviour
         _fieldofView = GetComponent<FieldofView>();
         _gameObject = GameObject.Find("Character");
         _dragAndShoot = _gameObject.GetComponent<DragAndShoot>();
+        _animator = GetComponent<Animator>();
     }
     
     void Update()
     {
         if (_fieldofView.canSeePlayer && _dragAndShoot.isGrounded)
         {
-            
+            _animator.SetBool("Shooting", true);
+            _animator.SetBool("Alert",false);
             ShootAtPlayer();
         }
         if (_fieldofView.canSeePlayer && !_dragAndShoot.isGrounded)
         {
-            Debug.Log("Play Alert Animation Here!");
-            Debug.Log("Hello");
+            
+            _animator.SetBool("Alert",true);
         }
     }
 
@@ -43,6 +46,6 @@ public class EnemyAttack : MonoBehaviour
         Rigidbody bulletRig = bulletInstantiate.GetComponent<Rigidbody>();
         bulletRig.AddForce((((_fieldofView.targetCenter - _fieldofView.objectCenter).normalized))*power, ForceMode.Impulse);
         // bulletRig.AddForce(new Vector3(-0.5f, 0.4f, 0) * power, ForceMode.Impulse);
-        Destroy(bulletInstantiate, 1.4f); 
+        Destroy(bulletInstantiate, 0.6f); 
     }
 }

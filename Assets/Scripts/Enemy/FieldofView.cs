@@ -14,6 +14,7 @@ public class FieldofView : MonoBehaviour
     private CapsuleCollider _capsuleCollider;
     private float _height;
     private Vector3 _scale;
+    private Animator _animator;
    [HideInInspector] public Vector3 objectCenter;
    [HideInInspector] public Vector3 targetCenter;
    [HideInInspector] public bool canSeePlayer;
@@ -25,6 +26,7 @@ public class FieldofView : MonoBehaviour
       _height = _capsuleCollider.height / 2 + 1.3f; // 1.3f to move slightly up (eye-level instead of center of mass)
       _scale = transform.localScale;
       objectCenter = transform.position + _scale.x * new Vector3(0, _height, 0);
+      _animator = GetComponent<Animator>();
       StartCoroutine(FOVRoutine());
     }
 
@@ -71,6 +73,8 @@ public class FieldofView : MonoBehaviour
 
         } else if (canSeePlayer)
         {
+            _animator.SetBool("Shooting", false);
+            _animator.SetBool("Alert",false);
             canSeePlayer = false;
         }
         
