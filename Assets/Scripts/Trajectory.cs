@@ -3,7 +3,6 @@ public class Trajectory : MonoBehaviour
 {
 
     [SerializeField] LayerMask nonPlayer;
-    private Rigidbody _rb;
     private LineRenderer _lr;
     public Vector3 tempVec;
     bool flag;  
@@ -14,7 +13,6 @@ public class Trajectory : MonoBehaviour
 
     void Start()
     {
-        _rb = GetComponentInParent<Rigidbody>();
         _lr = GetComponent<LineRenderer>();
         _lr.numCapVertices = 40;
         _lr.startWidth = 0.3f;
@@ -45,9 +43,11 @@ public class Trajectory : MonoBehaviour
                     Debug.DrawLine(hit.point, force, Color.red);
                     bounceCount++;
                 }
-                else 
+                else if(hit.collider != null && hit.collider.gameObject.CompareTag("ground"))
                 {
-                    moveStep = Vector3.zero;
+                    Debug.Log("Break break");
+                    tempVec = pos;
+                    return results;
                 }
             }
             pos += moveStep;
@@ -64,7 +64,6 @@ public class Trajectory : MonoBehaviour
         {
             _lr.startColor = c1;
         }
-        //Debug.Log("Bounce count: " + bounceCount);
 
         tempVec = pos;
 
@@ -74,8 +73,27 @@ public class Trajectory : MonoBehaviour
 
     public void RenderTrajectory(Vector3[] trajectory)
     {
-        _lr.positionCount = trajectory.Length;
-        _lr.SetPositions(trajectory);
+        int length = 0;
+        for (int i = 0; i < trajectory.Length; i++)
+        {
+            if (trajectory[i] != Vector3.zero)
+            {
+                length++;
+            }
+        }
+
+        Vector3[] temp = new Vector3[length];
+        int tempindex = 0;
+        for (int i = 0; i < trajectory.Length; i++)
+        {
+            if (trajectory[i] != Vector3.zero)
+            {
+                temp[tempindex++] = trajectory[i];
+            }
+        }
+
+        _lr.positionCount = length;
+        _lr.SetPositions(temp);
     }
 
 
