@@ -1,7 +1,7 @@
 using UnityEngine;
+
 public class Trajectory : MonoBehaviour
 {
-
     [SerializeField] LayerMask nonPlayer;
     private LineRenderer _lr;
     public Vector3 tempVec;
@@ -10,6 +10,7 @@ public class Trajectory : MonoBehaviour
 
     Color c1 = Color.white;
     Color c2 = Color.blue;
+    Color c3 = Color.red;
 
     void Start()
     {
@@ -17,9 +18,7 @@ public class Trajectory : MonoBehaviour
         _lr.numCapVertices = 40;
         _lr.startWidth = 0.3f;
         _lr.endWidth = 0.03f;
-        
     }
-
 
     public Vector3[] Plot(Vector3 pos, Vector3 force, int steps)
     {
@@ -31,11 +30,11 @@ public class Trajectory : MonoBehaviour
 
         for (int i = 0; i < steps; i++)
         {
-
             RaycastHit hit;
-            
+
             if (Physics.Raycast(pos, moveStep, out hit, moveStep.magnitude, nonPlayer))
             {
+                Debug.Log($"Raycast hit: {hit.collider.gameObject.name} with tag {hit.collider.gameObject.tag}");
 
                 if (hit.collider.CompareTag("bouncy"))
                 {
@@ -43,17 +42,25 @@ public class Trajectory : MonoBehaviour
                     Debug.DrawLine(hit.point, force, Color.red);
                     bounceCount++;
                 }
-                else if(hit.collider != null && hit.collider.gameObject.CompareTag("ground"))
+                else if (hit.collider.gameObject.CompareTag("enemy"))
                 {
-                    Debug.Log("Break break");
+                    Debug.Log("Enemy Detected!");
+                    _lr.startColor = c3; 
                     tempVec = pos;
+                    _lr.positionCount = 0; // Stop rendering the line
+                    return results;
+                    // Change line color to red
+                }
+                else if (hit.collider.gameObject.CompareTag("ground"))
+                {
+                    Debug.Log("Platform Detected!");
+                    tempVec = pos;
+                    _lr.positionCount = 0; // Stop rendering the line
                     return results;
                 }
             }
             pos += moveStep;
             results[i] = pos;
-
-
         }
 
         if (bounceCount > 0)
@@ -69,7 +76,6 @@ public class Trajectory : MonoBehaviour
 
         return results;
     }
-
 
     public void RenderTrajectory(Vector3[] trajectory)
     {
@@ -91,11 +97,10 @@ public class Trajectory : MonoBehaviour
                 temp[tempindex++] = trajectory[i];
             }
         }
-        
+
         _lr.positionCount = length;
         _lr.SetPositions(temp);
     }
-
 
     public void EndLine02()
     {

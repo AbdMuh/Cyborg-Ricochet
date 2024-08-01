@@ -6,216 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cac0c56b-4670-40df-b266-547766472141" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyborg-Ricochet-main/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyborg-Ricochet-main/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo).meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/AmmoPack.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/AmmoPack.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/AmmoPackSettings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/AmmoPackSettings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet1(handful)_controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet1(handful)_controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet1_animations.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet1_animations.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet1_controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet1_controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet2_animations.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet2_animations.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet2_controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet2_controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet3_animations.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet3_animations.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet3_controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet3_controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet4_animations.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet4_animations.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet4_controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet4_controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet5_animations.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet5_animations.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet5_controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet5_controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet6_animations.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet6_animations.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet6_controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet6_controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet7_animations.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet7_animations.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet7_animations.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet7_animations.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet8_animations.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet8_animations.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet8_animations.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Animations/Bullet8_animations.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet1_mat(1).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet1_mat(1).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet1_mat(2).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet1_mat(2).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet1_mat(3).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet1_mat(3).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet2_mat(1).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet2_mat(1).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet2_mat(2).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet2_mat(2).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet3_mat(1).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet3_mat(1).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet3_mat(2).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet3_mat(2).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet4_mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet4_mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet5_mat(1).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet5_mat(1).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet5_mat(2).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet5_mat(2).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet5_mat(3).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet5_mat(3).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet6_mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet6_mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet7_mat(1).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet7_mat(1).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet7_mat(2).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet7_mat(2).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet7_mat(3).mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet7_mat(3).mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet8_mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Bullet8_mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Platform_mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Materials/Platform_mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet1.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet1.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet2.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet2.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet3.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet3.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet4.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet4.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet5.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet5.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet6.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet6.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet7.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet7.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet8.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Bullet8.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Materials/Bullet2_mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Meshes/Materials/Bullet2_mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet1(1).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet1(1).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet1(2).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet1(2).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet1(3).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet1(3).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet2(1).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet2(1).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet2(2).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet2(2).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet3(1).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet3(1).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet3(2).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet3(2).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet4.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet5(1).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet5(1).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet5(2).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet5(2).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet5(3).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet5(3).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet6.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet6.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet7(1).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet7(1).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet7(2).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet7(2).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet7(3).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet7(3).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet8.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Prefabs/Bullet8.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse1.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse1.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse3.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_diffuse3.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_metallic.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_metallic.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_normal1.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_normal1.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_normal2,3.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet1_normal2,3.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_diffuse1.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_diffuse1.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_diffuse2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_diffuse2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_metallic1.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_metallic1.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_metallic2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_metallic2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_normal1.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_normal1.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_normal2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet2_normal2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet3_diffuse1.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet3_diffuse1.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet3_diffuse2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet3_diffuse2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet3_metallic1,2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet3_metallic1,2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet3_normal1,2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet3_normal1,2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet4_diffuse.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet4_diffuse.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet4_metallic.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet4_metallic.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet4_normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet4_normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse1.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse1.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse3.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet5_diffuse3.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet5_metallic.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet5_metallic.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet5_normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet5_normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet6_diffuse.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet6_diffuse.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet6_metallic.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet6_metallic.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet6_normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet6_normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse1.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse1.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse3.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_diffuse3.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_metallic1.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_metallic1.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_metallic2.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_metallic2.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_metallic3.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_metallic3.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_normal1,2,3.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet7_normal1,2,3.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_AlbedoTransparency.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_AlbedoTransparency.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_MetallicSmoothness.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_MetallicSmoothness.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_Normal.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ammunition pack (demo)/Textures/Bullet8_Substance_Bullet8_mat_Normal.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Enemy1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Enemy1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldofView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/FieldofView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DragAndShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DragAndShoot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trajectory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trajectory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +22,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EditorFOV.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMoving.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -309,6 +105,7 @@
       <workItem from="1722191795352" duration="3704000" />
       <workItem from="1722247038685" duration="4142000" />
       <workItem from="1722334917248" duration="7882000" />
+      <workItem from="1722421819078" duration="2721000" />
     </task>
     <servers />
   </component>
