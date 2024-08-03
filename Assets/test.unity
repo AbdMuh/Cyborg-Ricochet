@@ -558,6 +558,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 741349799}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1552ad4cbb9a9f34c957884303410e79,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 741349800}
   m_SourcePrefab: {fileID: 100100000, guid: 1552ad4cbb9a9f34c957884303410e79, type: 3}
 --- !u!1001 &333802254
 PrefabInstance:
@@ -1660,6 +1664,18 @@ CapsuleCollider:
   m_Height: 4.16
   m_Direction: 1
   m_Center: {x: 0, y: 2.11, z: 0}
+--- !u!114 &741349800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741349792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ac5b12489b975648a06319b1c939db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &856489105
 GameObject:
   m_ObjectHideFlags: 0
@@ -2956,6 +2972,7 @@ MonoBehaviour:
     m_Bits: 448
   tempVec: {x: 0, y: 0, z: 0}
   bounceCount: 0
+  CharacterAim: 0
 --- !u!1001 &1904947864
 PrefabInstance:
   m_ObjectHideFlags: 0

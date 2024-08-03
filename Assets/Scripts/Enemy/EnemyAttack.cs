@@ -48,4 +48,12 @@ public class EnemyAttack : MonoBehaviour
         // bulletRig.AddForce(new Vector3(-0.5f, 0.4f, 0) * power, ForceMode.Impulse);
         Destroy(bulletInstantiate, 0.6f); 
     }
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            _animator.SetBool("Death",true);
+            Destroy(this.gameObject,0.85f);
+        }
+    }
 }

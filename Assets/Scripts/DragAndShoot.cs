@@ -21,8 +21,6 @@ public class DragAndShoot : MonoBehaviour
     private Vector3 _endPoint;
     private LineTrail _trail;
     private Trajectory _trajectory;
-    private GameObject _cameraObject;
-    private CameraMoving _cameraMoving;
     [SerializeField] private int steps;
 
     private Vector3 _tempVec;
@@ -39,8 +37,6 @@ public class DragAndShoot : MonoBehaviour
         bounceHit = 0;
         _camera = Camera.main;
         _trail = GetComponent<LineTrail>();
-        _cameraObject = GameObject.Find("Virtual Camera");
-        _cameraMoving = _cameraObject.GetComponent<CameraMoving>();
         _trajectory = GetComponentInChildren<Trajectory>();
     }
 
@@ -64,7 +60,7 @@ public class DragAndShoot : MonoBehaviour
         }
         
 
-        if (Input.GetMouseButtonDown(0) && _cameraMoving.isIdle)
+        if (Input.GetMouseButtonDown(0))
         {
             _isDragging = true;
             _startPoint = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 3f));

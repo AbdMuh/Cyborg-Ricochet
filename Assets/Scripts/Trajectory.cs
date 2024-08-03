@@ -1,3 +1,5 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Trajectory : MonoBehaviour
@@ -7,6 +9,7 @@ public class Trajectory : MonoBehaviour
     public Vector3 tempVec;
     bool flag;  
     public int bounceCount;
+    public bool CharacterAim;
 
     Color c1 = Color.white;
     Color c2 = Color.blue;
@@ -16,8 +19,8 @@ public class Trajectory : MonoBehaviour
     {
         _lr = GetComponent<LineRenderer>();
         _lr.numCapVertices = 40;
-        _lr.startWidth = 0.3f;
-        _lr.endWidth = 0.03f;
+        _lr.startWidth = 0.25f;
+        _lr.endWidth = 0.02f;
     }
 
     public Vector3[] Plot(Vector3 pos, Vector3 force, int steps)
@@ -34,28 +37,30 @@ public class Trajectory : MonoBehaviour
 
             if (Physics.Raycast(pos, moveStep, out hit, moveStep.magnitude, nonPlayer))
             {
-                Debug.Log($"Raycast hit: {hit.collider.gameObject.name} with tag {hit.collider.gameObject.tag}");
+                // Debug.Log($"Raycast hit: {hit.collider.gameObject.name} with tag {hit.collider.gameObject.tag}");
 
                 if (hit.collider.CompareTag("bouncy"))
                 {
+                    CharacterAim = false;
                     moveStep = Vector3.Reflect(moveStep, hit.normal);
                     Debug.DrawLine(hit.point, force, Color.red);
                     bounceCount++;
                 }
                 else if (hit.collider.gameObject.CompareTag("enemy"))
                 {
+                    CharacterAim = true;
                     Debug.Log("Enemy Detected!");
                     _lr.startColor = c3; 
                     tempVec = pos;
-                    _lr.positionCount = 0; // Stop rendering the line
                     return results;
-                    // Change line color to red
+                    
                 }
                 else if (hit.collider.gameObject.CompareTag("ground"))
                 {
+                    CharacterAim = false;
+                    _lr.startColor = c1; 
                     Debug.Log("Platform Detected!");
                     tempVec = pos;
-                    _lr.positionCount = 0; // Stop rendering the line
                     return results;
                 }
             }
@@ -106,4 +111,5 @@ public class Trajectory : MonoBehaviour
     {
         _lr.positionCount = 0;
     }
+    
 }
