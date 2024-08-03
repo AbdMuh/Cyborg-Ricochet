@@ -62,8 +62,8 @@ public class DragAndShoot : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            _isDragging = true;
             _startPoint = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 3f));
+            _isDragging = true;
         }
             
         if (Input.GetMouseButton(0) && _isDragging)
@@ -83,10 +83,9 @@ public class DragAndShoot : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0) && _isDragging)
         {
-            _isDragging = false;
             _tempVec = _trajectory.tempVec;
             bounceCount = _trajectory.bounceCount;
-                    
+            _isDragging = false;     
             _endPoint = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 3f));
 
             _force = new Vector3(Mathf.Clamp(_startPoint.x - _endPoint.x, minPower.x, maxPower.x),

@@ -10,6 +10,7 @@ TagManager:
   - ground
   - enemy
   - test_enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -46,7 +47,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Bullet
-    uniqueID: 3917222849
     locked: 0

@@ -28,12 +28,12 @@ public class CharacterAttack : MonoBehaviour
         }
     }
 
-    // private void OnCollisionExit(Collision other)
-    // {
-    //     if (other.gameObject.CompareTag("enemy"))
-    //     {
-    //         Debug.Log("Play Enemy Death Animation");
-    //         Destroy(other.gameObject,0.5f);
-    //     }
-    // }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(other.gameObject);
+            Debug.Log("Add Bullet explosion effect here");
+        }
+    }
 }

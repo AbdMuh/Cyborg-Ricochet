@@ -46,7 +46,7 @@ public class EnemyAttack : MonoBehaviour
         Rigidbody bulletRig = bulletInstantiate.GetComponent<Rigidbody>();
         bulletRig.AddForce((((_fieldofView.targetCenter - _fieldofView.objectCenter).normalized))*power, ForceMode.Impulse);
         // bulletRig.AddForce(new Vector3(-0.5f, 0.4f, 0) * power, ForceMode.Impulse);
-        Destroy(bulletInstantiate, 0.6f); 
+        // Destroy(bulletInstantiate, 0.6f); 
     }
     private void OnCollisionEnter(Collision other)
     {
