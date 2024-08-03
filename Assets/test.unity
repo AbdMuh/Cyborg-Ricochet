@@ -562,6 +562,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 741349800}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1552ad4cbb9a9f34c957884303410e79,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 741349801}
   m_SourcePrefab: {fileID: 100100000, guid: 1552ad4cbb9a9f34c957884303410e79, type: 3}
 --- !u!1001 &333802254
 PrefabInstance:
@@ -1575,7 +1579,7 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0.9245283, g: 0.2998383, b: 0.06541473, a: 1}
       key1: {r: 1, g: 0.87709737, b: 0.26666665, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 1}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -1674,6 +1678,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ac5b12489b975648a06319b1c939db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &741349801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741349792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd1d1314f282a54458ceae65d630843e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &856489105
@@ -2603,6 +2619,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: -69173840080509192, guid: aea221404fb84584c8d14ec44d5398bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 234418884954784787, guid: aea221404fb84584c8d14ec44d5398bb,
         type: 3}
       propertyPath: m_Layer
@@ -2972,7 +2993,7 @@ MonoBehaviour:
     m_Bits: 448
   tempVec: {x: 0, y: 0, z: 0}
   bounceCount: 0
-  CharacterAim: 0
+  characterAim: 0
 --- !u!1001 &1904947864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2994,7 +3015,7 @@ PrefabInstance:
     - target: {fileID: 2242557888172526833, guid: af796cb6767480442be6e85f2bb97d26,
         type: 3}
       propertyPath: m_TagString
-      value: test_enemy
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 3499928911500441868, guid: af796cb6767480442be6e85f2bb97d26,
         type: 3}

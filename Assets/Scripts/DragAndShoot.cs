@@ -36,7 +36,7 @@ public class DragAndShoot : MonoBehaviour
     {
         bounceHit = 0;
         _camera = Camera.main;
-        _trail = GetComponent<LineTrail>();
+        // _trail = GetComponent<LineTrail>();
         _trajectory = GetComponentInChildren<Trajectory>();
     }
 
@@ -52,7 +52,7 @@ public class DragAndShoot : MonoBehaviour
         isGrounded = Physics.BoxCast(boxCenter, halfExtents, Vector3.down, out _hit, orientation, maxDistance);
         if (!isGrounded)
         {
-            _trail.EndLine();
+            // _trail.EndLine();
             _trajectory.EndLine02();
             Debug.Log("Not grounded");
 
@@ -69,14 +69,14 @@ public class DragAndShoot : MonoBehaviour
         if (Input.GetMouseButton(0) && _isDragging)
         {
             Vector3 currentPoint = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 3f));
-            _trail.RenderLine(currentPoint);
+            // _trail.RenderLine(currentPoint);
 
 
             _force = new Vector3(Mathf.Clamp(_startPoint.x - currentPoint.x, minPower.x, maxPower.x),
                 Mathf.Clamp(_startPoint.y - currentPoint.y, minPower.y, maxPower.y), 0);
 
 
-            Vector3[] trajectory = _trajectory.Plot(transform.position, _force * power, steps);
+            Vector3[] trajectory = _trajectory.Plot(transform.position + (0.35f * new Vector3(0,3f,0)), _force * power, steps); // so that the trajectory starts from the middle of the character
             _trajectory.RenderTrajectory(trajectory);
         }
 

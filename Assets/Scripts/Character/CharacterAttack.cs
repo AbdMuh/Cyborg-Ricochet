@@ -14,7 +14,7 @@ public class CharacterAttack : MonoBehaviour
 
     private void Update()
     {
-        if (_trajectory.CharacterAim && Input.GetMouseButtonUp(0))
+        if (_trajectory.characterAim && Input.GetMouseButtonUp(0))
         {
             AttackAndAnimate();
         }
@@ -32,6 +32,7 @@ public class CharacterAttack : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
+            
             Destroy(other.gameObject);
             Debug.Log("Add Bullet explosion effect here");
         }

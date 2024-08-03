@@ -1,26 +1,28 @@
-using System;
-using Unity.VisualScripting;
 using UnityEngine;
+
 
 public class Trajectory : MonoBehaviour
 {
     [SerializeField] LayerMask nonPlayer;
     private LineRenderer _lr;
     public Vector3 tempVec;
-    bool flag;  
+    bool _flag;  
     public int bounceCount;
-    public bool CharacterAim;
+    public bool characterAim;
 
-    Color c1 = Color.white;
-    Color c2 = Color.blue;
-    Color c3 = Color.red;
+    Color _c1 = new Color(0.98f, 0.631f,0, 1);
+    
+    Color _c2 = new Color(0.0f, 0.757f, 0.980f);
+
+    Color _c3 = new Color(0.980f, 0.318f, 0.0f);
+
 
     void Start()
     {
         _lr = GetComponent<LineRenderer>();
-        _lr.numCapVertices = 40;
-        _lr.startWidth = 0.25f;
-        _lr.endWidth = 0.02f;
+        _lr.numCapVertices = 20;
+        _lr.startWidth = 0.08f;
+        _lr.endWidth = 0.08f;
     }
 
     public Vector3[] Plot(Vector3 pos, Vector3 force, int steps)
@@ -41,24 +43,24 @@ public class Trajectory : MonoBehaviour
 
                 if (hit.collider.CompareTag("bouncy"))
                 {
-                    CharacterAim = false;
+                    characterAim = false;
                     moveStep = Vector3.Reflect(moveStep, hit.normal);
                     Debug.DrawLine(hit.point, force, Color.red);
                     bounceCount++;
                 }
                 else if (hit.collider.gameObject.CompareTag("enemy"))
                 {
-                    CharacterAim = true;
+                    characterAim = true;
                     Debug.Log("Enemy Detected!");
-                    _lr.startColor = c3; 
+                    _lr.startColor = _c3; 
                     tempVec = pos;
                     return results;
                     
                 }
                 else if (hit.collider.gameObject.CompareTag("ground"))
                 {
-                    CharacterAim = false;
-                    _lr.startColor = c1; 
+                    characterAim = false;
+                    _lr.startColor = _c1; 
                     Debug.Log("Platform Detected!");
                     tempVec = pos;
                     return results;
@@ -70,11 +72,11 @@ public class Trajectory : MonoBehaviour
 
         if (bounceCount > 0)
         {
-            _lr.startColor = c2;
+            _lr.startColor = _c2;
         }
         else
         {
-            _lr.startColor = c1;
+            _lr.startColor = _c1;
         }
 
         tempVec = pos;
