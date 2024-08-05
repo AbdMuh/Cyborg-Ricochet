@@ -21,8 +21,8 @@ public class Trajectory : MonoBehaviour
     {
         _lr = GetComponent<LineRenderer>();
         _lr.numCapVertices = 20;
-        _lr.startWidth = 0.08f;
-        _lr.endWidth = 0.08f;
+        _lr.startWidth = 0.12f;
+        _lr.endWidth = 0.04f;
     }
 
     public Vector3[] Plot(Vector3 pos, Vector3 force, int steps)

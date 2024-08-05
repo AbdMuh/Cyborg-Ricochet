@@ -815,7 +815,6 @@ GameObject:
   - component: {fileID: 409194766}
   - component: {fileID: 409194768}
   - component: {fileID: 409194771}
-  - component: {fileID: 409194770}
   - component: {fileID: 409194769}
   m_Layer: 6
   m_Name: Virtual Camera
@@ -872,7 +871,7 @@ Transform:
   m_GameObject: {fileID: 409194765}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -1.6100001, z: -12.056999}
+  m_LocalPosition: {x: 0.02, y: -1.6100001, z: -13.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -891,7 +890,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e422a2ffcde0c419e6ace44c0c2ec8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_XPosition: 0.05
+  m_XPosition: 0.02
+  m_ZPosition: -13.5
 --- !u!114 &409194769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -936,18 +936,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!114 &409194770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409194765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 123b722ac40c057439a363f571e2b02c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!20 &409194771
 Camera:
   m_ObjectHideFlags: 0
@@ -3292,7 +3280,7 @@ MonoBehaviour:
   m_BindingMode: 1
   m_FollowOffset: {x: 12.09, y: 2.34, z: 0}
   m_XDamping: 1
-  m_YDamping: 2
+  m_YDamping: 0
   m_ZDamping: 1
   m_AngularDampingMode: 0
   m_PitchDamping: 0
@@ -3605,7 +3593,7 @@ Transform:
   m_GameObject: {fileID: 2047872056}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -1.6100001, z: -12.056999}
+  m_LocalPosition: {x: 0.02, y: -1.6100001, z: -13.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

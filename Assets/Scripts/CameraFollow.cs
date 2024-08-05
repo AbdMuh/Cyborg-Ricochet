@@ -8,7 +8,8 @@ using Cinemachine;
 public class LockCameraX : CinemachineExtension
 {
     [Tooltip("Lock the camera's X position to this value")]
-    public float m_XPosition = 10;
+    public double m_XPosition = 0.02;
+    public double m_ZPosition = -13.5;
 
     protected override void PostPipelineStageCallback(
         CinemachineVirtualCameraBase vcam,
@@ -17,7 +18,8 @@ public class LockCameraX : CinemachineExtension
         if (stage == CinemachineCore.Stage.Body)
         {
             var pos = state.RawPosition;
-            pos.x = m_XPosition;
+            pos.x = (float) m_XPosition;
+            pos.z = (float) m_ZPosition;
             state.RawPosition = pos;
         }
     }

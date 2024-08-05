@@ -76,7 +76,7 @@ public class DragAndShoot : MonoBehaviour
                 Mathf.Clamp(_startPoint.y - currentPoint.y, minPower.y, maxPower.y), 0);
 
 
-            Vector3[] trajectory = _trajectory.Plot(transform.position + (0.35f * new Vector3(0,3f,0)), _force * power, steps); // so that the trajectory starts from the middle of the character
+            Vector3[] trajectory = _trajectory.Plot(transform.position + (0.35f * new Vector3(0,2.6f,0)), _force * power, steps); // so that the trajectory starts from the middle of the character
             _trajectory.RenderTrajectory(trajectory);
         }
 
